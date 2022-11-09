@@ -4,14 +4,14 @@
 }
 
 :root {
-  --color-primary1: rgb(226, 233, 216);
+  --color-primary1: #09285d;
   --color-primary2: #f5f5f5;
-  --color-secondary1: rgb(14, 16, 61);
-  --color-secondary2: #7486aa;
-  --color-accent1: #c44f67;
-  --color-accent2: rgb(241, 143, 1);
+  --color-secondary1: #a98c6c;
+  --color-secondary2: #babbc9;
+  --color-accent1: #b10000;
+  --color-accent2: #ca5310;
   --displayFont: "EB Garamond", sans-serif;
-  --bodyFont: "Lato", sans-serif;
+  --bodyFont: "Nunito", sans-serif;
 }
 
 body {
@@ -51,7 +51,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: ;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
 }
 h2 {
   font-size: 1.563rem;
@@ -61,6 +62,8 @@ h2 {
 p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
 }
 
 p.small {
